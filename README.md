@@ -14,6 +14,7 @@ Requirements
 **Getting started with [aws-fabric][2]:**
 
     git clone https://github.com/marshyski/aws-fabric.git
+    cd aws-fabric && pip install -r requirements.txt
     
     #Edit variables in configuration.py:
     ACCESS_KEY = 'aws-access-key-here'
