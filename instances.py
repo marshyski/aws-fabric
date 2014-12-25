@@ -13,7 +13,6 @@ ec2 = boto.ec2.connect_to_region(config.AWS_REGIONS,
 
 temp = sys.stdout
 sys.stdout = open('hosts_file', 'w')
-ec2.get_all_instances()
 reservations = ec2.get_all_instances()
 for res in reservations:
   for inst in res.instances:
